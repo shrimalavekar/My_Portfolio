@@ -10,9 +10,10 @@ import {
   DiBootstrap,
   DiHtml5,
   DiCss3,
-  
+  DiAngularSimple
 } from "react-icons/di";
-import {SiRedux,SiExpress,SiTailwindcss } from "react-icons/si";
+import {SiRedux,SiExpress,SiTailwindcss,SiTypescript, SiSass} from "react-icons/si";
+
 
 function Techstack() {
   return (<div id="skills" >
@@ -37,7 +38,10 @@ function Techstack() {
         <DiJavascript1 />
         <p>Javascript</p>
       </Col>
-
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+        <p>TypeScript</p>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
         <p>React</p>
@@ -46,6 +50,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiRedux />
         <p>Redux</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAngularSimple />
+        <p>Angular</p>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
@@ -70,6 +78,14 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiBootstrap />
         <p>Bootstrap</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSass />
+        <p>Scss</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact/>
+        <p>Material UI</p>
       </Col>
     </Row>
     </div>

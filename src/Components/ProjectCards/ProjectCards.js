@@ -23,9 +23,9 @@ function ProjectCards({imgPath,title,description,tech,techD,link,a}) {
         </Button>
         &nbsp;
         &nbsp;
-        <Button variant="primary" href={a} target="_blank">
+        {/* <Button variant="primary" href={a} target="_blank">
           <AiFillGithub /> &nbsp;
-        </Button>
+        </Button> */}
       </Card.Body>
     </Card>
   );
